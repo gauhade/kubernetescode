@@ -14,7 +14,7 @@ def elapsed():
 
 @app.route('/')
 def root():
-    return "Thanks for joining the training & keep learning, plan your certifications bye bye! (up %s)\n" % elapsed()
+    return "Thanks for joining the training & keep learning, plan your certifications, stay in touch V1 (up %s)\n" % elapsed()
 
 if __name__ == "__main__":
     app.run(debug=True, host="0.0.0.0", port=8080)
